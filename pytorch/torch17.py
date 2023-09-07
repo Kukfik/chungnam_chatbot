@@ -50,3 +50,7 @@ class FashionDNN(nn.Module):
     
 learning_rate = 0.001
 model = FashionDNN()
+model.to(device)
+
+criterion = nn.CrossEntropyLoss()
+optimizer = torch.optim.Adam
