@@ -2,6 +2,15 @@
 # chungnam_chatbot
 
 - - -
+#### 머신러닝 - 데이터 분류된 
+* 지도 학습(knn, svm, 결정 트리, 로지스틱 회귀(분류들이 부드롭게 느립나다), 선형 회귀(단순하고 빠름)) 
+* 비지도 학습(K -평균 군집화, 밀도 기반 군집 분석, PCA)
+#### 딥러닝 - 정제되지 않은 데이터
+* 합성 신경망 - 이미지 처리
+    * 합성곱층
+    * 풀링곱층
+* 순환 신경망(RNN)
+----
 ### What is Pytorch?
 Lua 언어로 개발되었던 딥러닝 프래입워크
 * 단순함
@@ -59,7 +68,17 @@ dataset = DataLoader(tensor_dataset, batch_size=4)
 
 
 ```
-
+# Deep Learning
+* 개념
+    * 입력층 (input layer) - 더이터 받아드리는 층
+    * 은닉층 (hidden layer) - 입력 노드부터 입력 값을 받아 가중합(weighted sum), 이 값을 활성화 함수에 출력층에 전달
+    * 출력층 (output layer)
+    * 가중치 (weight) - влияет на результат
+    * bias 
+    * 활성화 함수 (activation function) - 신호를 압력받아 이를 처리
+        * 시그모이드 함수 
+        * 렐루 한수 self.relu = torch.nn ReLu(inplace = True)
+    * 손실 함수 (loss function)
 
 
 
