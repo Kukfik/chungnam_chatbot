@@ -94,10 +94,11 @@ dataset = DataLoader(tensor_dataset, batch_size=4)
 
 
 
-
+사전 훈련된 모델의 파라미터 학습 유무 지정 212p
 ```python
-import time
-def main():
-    print('this is test')
+def set_parameter_requires_grad(model, feature_extracting=True):
+    if feature_extracting:
+        for param in model.parameters():
+            param.requires_grad = False # 모델의 일부를 고정하고 나머지를 학습
 ```
 
