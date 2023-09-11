@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 - - - 
 # chungnam_chatbot
 
@@ -12,12 +11,6 @@
     * 풀링곱층
 * 순환 신경망(RNN)
 ----
-=======
-
-# chungnam_chatbot
-
-- - -
->>>>>>> 67134463136597e267abcd3222fbe6a331239165
 ### What is Pytorch?
 Lua 언어로 개발되었던 딥러닝 프래입워크
 * 단순함
@@ -28,12 +21,9 @@ Lua 언어로 개발되었던 딥러닝 프래입워크
 * GPU - 연산 속도를 빠르게 하는 역할을 한다.
 * Tensor - 데이터 형태
 * 동적 신경망 (dynamic neural network) - 훌련은 반복할 때마다 네트워크 변경이 가능한 신경망
-<<<<<<< HEAD
 * layer(계층) - 모듈 또는 모듈을 구성하는 한 개의 계층으로 합성곱층, 선형계층
 * 모듈 - 한 개 이상의 계층이 모여서 구성된 것
 * 모델 - 최동적으로 원하는 네트워크
-=======
->>>>>>> 67134463136597e267abcd3222fbe6a331239165
 
 ### Pytorch API
 * torch - GPU를 지원하는 텐서 패키지
@@ -49,7 +39,6 @@ Lua 언어로 개발되었던 딥러닝 프래입워크
 * -------------------------------
 
 
-<<<<<<< HEAD
 ### Pandas(판다스) - 데이터 호출 라이브러리 (JSON, PDF, CSV)
 pip install pandas / 
 import pandas as pd / 
@@ -91,8 +80,17 @@ dataset = DataLoader(tensor_dataset, batch_size=4)
         * 렐루 한수 self.relu = torch.nn ReLu(inplace = True)
     * 손실 함수 (loss function)
 
-=======
->>>>>>> 67134463136597e267abcd3222fbe6a331239165
+---
+### 합성곱 신경망 - convolutional neural network / CNN
+이미지나 영상 처리
+* 입력층
+* 합성곱층 - 데이터에서 특성 추출하는 역할
+* 풀링층(pooling layer) - 연산량 감소시키고 특성 벡터 추출하여 학습 효율 높게
+    * 최대 풀링(max pooling) - 자주 사용함
+    * 평균 풀링(average pooling)
+* 출력층
+
+
 
 
 
@@ -101,8 +99,5 @@ dataset = DataLoader(tensor_dataset, batch_size=4)
 import time
 def main():
     print('this is test')
-<<<<<<< HEAD
 ```
 
-=======
->>>>>>> 67134463136597e267abcd3222fbe6a331239165
