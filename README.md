@@ -102,3 +102,12 @@ def set_parameter_requires_grad(model, feature_extracting=True):
             param.requires_grad = False # 모델의 일부를 고정하고 나머지를 학습
 ```
 
+
+
+# Flask
+### Ip
+An Internet Protocol address (IP address) is a numerical label such as 192.0.2.1 that is connected to a computer network that uses the Internet Protocol for communication.
+### ip function
+* it identifies the host, or more specifically its network interface
+* it provides the location of the host in the network, and thus the capability of establishing a path to that host. 
+* "A name indicates what we seek. An address indicates where it is. A route indicates how to get there.
