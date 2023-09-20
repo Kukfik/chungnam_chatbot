@@ -93,12 +93,12 @@ dataset = DataLoader(tensor_dataset, batch_size=4)
 ### ARIMA 모델 - 자기 회귀와 이동 평균을 둘 다 고려하는 모형이다.
 conda install -c conda-forge statmodels
 pip install models
-
-model = Arima(series, order=(5,1,0)) - ARIMA function open
-model_fit = model.fit(disp=0) - help to watch debug info but now display is False
+```python
+model = Arima(series, order=(5,1,0)) # ARIMA function open
+model_fit = model.fit(disp=0) # help to watch debug info but now display is False
 print(model_fit.summary())
-residuals = DataFrame(model_fit.resid) - error info in variable residuals in DataFrame
-
+residuals = DataFrame(model_fit.resid) # error info in variable residuals in DataFrame
+```
 
 
 사전 훈련된 모델의 파라미터 학습 유무 지정 212p
