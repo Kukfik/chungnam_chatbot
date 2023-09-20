@@ -90,7 +90,14 @@ dataset = DataLoader(tensor_dataset, batch_size=4)
     * 평균 풀링(average pooling)
 * 출력층
 
+### ARIMA 모델 - 자기 회귀와 이동 평균을 둘 다 고려하는 모형이다.
+conda install -c conda-forge statmodels
+pip install models
 
+model = Arima(series, order=(5,1,0)) - ARIMA function open
+model_fit = model.fit(disp=0) - help to watch debug info but now display is False
+print(model_fit.summary())
+residuals = DataFrame(model_fit.resid) - error info in variable residuals in DataFrame
 
 
 
