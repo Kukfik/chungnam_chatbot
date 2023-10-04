@@ -113,27 +113,28 @@ def set_parameter_requires_grad(model, feature_extracting=True):
 * it uses K-평균 군집화 (pip install kmeans-pytorch)
 * 클러스터 개수를 편리하게 결정하기 위해 WCSS
 
+---
 # NumPy
 범용적 데이터 처리
 ### how to make array with numpy
-numpy.arange([start]stop, step, dtype=None
-numpy.linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None, axis=0)
-numpy.zeros/ones(shape,dtype=float)
-numpy.full(shape, fill_value, dtype=None)
-numpy.eye(N, M=None, k=0, dtype=float)
-numpy.diag(a,k=0)
+* numpy.arange([start]stop, step, dtype=None
+* numpy.linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None, axis=0)
+* numpy.zeros/ones(shape,dtype=float)
+* numpy.full(shape, fill_value, dtype=None)
+* numpy.eye(N, M=None, k=0, dtype=float)
+* numpy.diag(a,k=0)
 ### 배열 생성
 #### 기존 배열 복사
-numpy.ones/zeros_like(a,dtype=None)
-numpy.full_like(a,fill_value, dtype=None)
+* numpy.ones/zeros_like(a,dtype=None)
+* numpy.full_like(a,fill_value, dtype=None)
 ### 모양 변경
-numpy.reshape(a, new_shape)
-ndarray.reshape(new_shape)
-ndarray.resize(new_shape)
+* numpy.reshape(a, new_shape)
+* ndarray.reshape(new_shape)
+* ndarray.resize(new_shape)
 ### 기본 연산
 +,-,*,/,%,**
 
-
+---
 # Flask
 ### Ip
 An Internet Protocol address (IP address) is a numerical label such as 192.0.2.1 that is connected to a computer network that uses the Internet Protocol for communication.
