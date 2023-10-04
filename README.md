@@ -108,6 +108,10 @@ def set_parameter_requires_grad(model, feature_extracting=True):
         for param in model.parameters():
             param.requires_grad = False # 모델의 일부를 고정하고 나머지를 학습
 ```
+### Clastering 
+특성 비슷한 데이터끼리 묶어 주시는 머신 러닝 기법이다.
+* it uses K-평균 군집화 (pip install kmeans-pytorch)
+* 클러스터 개수를 편리하게 결정하기 위해 WCSS
 
 
 
